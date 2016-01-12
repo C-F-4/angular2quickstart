@@ -15,12 +15,16 @@ System.register(['angular2/core'], function(exports_1) {
         execute: function() {
             AppComponent = (function () {
                 function AppComponent() {
-                    this.title = "My First Angular 2 App";
+                    this.title = 'Tour of Heroes';
+                    this.hero = {
+                        id: 1,
+                        name: 'Windstorm'
+                    };
                 }
                 AppComponent = __decorate([
                     core_1.Component({
                         selector: 'my-app',
-                        template: '<h1>My title: {{title}}</h1> <h2>Hardcoded h2</h2>'
+                        template: "\n    <h1>{{title}}</h1>\n    <h2>{{hero.name}} details!</h2>\n    <div><label>id: </label>{{hero.id}}</div>\n    <div>\n      <label>name: </label>\n      <div><input [(ngModel)]=\"hero.name\" placeholder=\"name\"></div>\n    </div>\n    "
                     })
                 ], AppComponent);
                 return AppComponent;
@@ -29,3 +33,8 @@ System.register(['angular2/core'], function(exports_1) {
         }
     }
 });
+/*
+Copyright 2016 Google Inc. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at http://angular.io/license
+*/ 
