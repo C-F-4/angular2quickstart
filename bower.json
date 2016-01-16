@@ -1,0 +1,18 @@
+{
+  "name": "angular2-quickstart",
+  "description": "First Angular 2 app",
+  "main": "boot.js",
+  "authors": [
+    "leongaban <leongaban@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/leongaban/angular2quickstart",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

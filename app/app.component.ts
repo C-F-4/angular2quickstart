@@ -21,7 +21,7 @@ export class AppComponent {
     public title = 'Tour of Heroes';
     public hero: Hero = {
         id: 1,
-        name: 'Touchstorm'
+        name: 'Leon'
     };
 }
 
