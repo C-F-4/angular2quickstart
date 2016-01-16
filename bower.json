@@ -19,7 +19,8 @@
     "sass-smacss": "~0.2.3",
     "lodash": "~4.0.0",
     "es6-shim": "~0.34.1",
-    "jquery": "~2.2.0"
+    "jquery": "~2.2.0",
+    "bootstrap": "~3.3.6"
   },
   "install": {
     "path": "libs",
@@ -33,6 +34,11 @@
       ],
       "lodash": [
         "bower_components/lodash/lodash.min.js"
+      ],
+      "bootstrap": [
+        "bower_components/bootstrap/dist/css/bootstrap.css",
+        "bower_components/bootstrap/dist/css/bootstrap.css.map",
+        "bower_components/bootstrap/dist/js/bootstrap.min.js"
       ]
     }
   }
