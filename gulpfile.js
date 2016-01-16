@@ -85,7 +85,7 @@ gulp.task('app-js', function() {
 /** Main Styles */
 /** ------------------------------------------------------------------------- */
 gulp.task('app-css', function() {
-    return sass('bower_components/sass-smacss/sass/dashboard.scss', {
+    return sass('bower_components/sass-smacss/sass/app.scss', {
         // noCache: true,
         style: 'compressed'
     })

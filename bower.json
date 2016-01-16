@@ -14,5 +14,26 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "sass-smacss": "~0.2.3",
+    "lodash": "~4.0.0",
+    "es6-shim": "~0.34.1",
+    "jquery": "~2.2.0"
+  },
+  "install": {
+    "path": "libs",
+    "sources": {
+      "jquery": [
+        "bower_components/jquery/dist/jquery.min.js",
+        "bower_components/jquery/dist/jquery.min.map"
+      ],
+      "es6-shim": [
+        "bower_components/es6-shim/es6-shim.min.js"
+      ],
+      "lodash": [
+        "bower_components/lodash/lodash.min.js"
+      ]
+    }
+  }
 }
