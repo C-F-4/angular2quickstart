@@ -1,29 +1,28 @@
 import {Component} from 'angular2/core';
 
 interface Hero {
-    id: number;
-    name: string;
+    id   : number;
+    name : string;
 }
 
 @Component({
-    selector: 'my-app',
-    templateUrl: 'templates/home.html'
-    // template: `
-    // <h1>{{title}}</h1>
-    // <h2>{{hero.name}} details!</h2>
-    // <div><label>id: </label>{{hero.id}}</div>
-    // <div>
-    //   <label>name: </label>
-    //   <div><input [(ngModel)]="hero.name" placeholder="name"></div>
-    // </div>
-    // `
+    selector    : 'my-app',
+    templateUrl : 'templates/home.html'
 })
 export class AppComponent {
-    public title = 'Leon Angular 2';
+    public title      = 'Leon Angular 2';
     public hero: Hero = {
-        id: 1,
-        name: 'Leon'
+        id   : 1,
+        name : 'Leon'
     };
+    todoModel = 'My model';
+    name: string;
+    constructor() {
+        this.name = 'Alice';
+    }
+    doSomething() {
+        alert('Clicked!');
+    }
 }
 
 /*
