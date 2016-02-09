@@ -1,7 +1,7 @@
 ////////////////////////////////////////////////////////////////////////////////
 /**
  * @name Gulp taskrunner
- * @desc The TickerTags dashboard taskrunner and build creator
+ * @desc Build maker for Angular 2 beta project
  */
 
 var gulp          = require('gulp'),
